@@ -1,5 +1,5 @@
 var UbricoinToken = artifacts.require("./UbricoinToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(UbricoinToken);
+  deployer.deploy(UbricoinToken, 1000000);
 };
